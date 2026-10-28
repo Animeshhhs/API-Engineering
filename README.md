@@ -76,8 +76,4 @@ curl localhost/health
 Open `http://<PUBLIC_IP>/posts?limit=3` in your browser: that is your final demo.
 (`-p 80:5000` means port 80 of the server forwards to port 5000 inside the container.)
 
-## Demo script for the instructor (about 3 minutes)
-1. Show the docs page and `/posts/1` in the browser (Task 1).
-2. `python demo.py`: walk through GET, POST, parsed output, and the two handled errors.
-3. Show `app.py`: "our endpoint calls the client, and one error handler returns clean JSON."
-4. Show the EC2 public URL working, plus `docker ps` on the server.
+
